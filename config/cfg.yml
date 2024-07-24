@@ -1,5 +1,6 @@
-#HTTP server port
-port: "8000"
+#HTTP server
+server:
+  port: "8000"
 
 #database conn settings
 database:
