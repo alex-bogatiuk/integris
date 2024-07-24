@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"github.com/alex-bogatiuk/integris/config"
+	"github.com/alex-bogatiuk/integris/internal/config"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
