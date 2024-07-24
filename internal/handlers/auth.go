@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"encoding/json"
-	"github.com/alex-bogatiuk/integris/db"
-	"github.com/alex-bogatiuk/integris/models"
+	"github.com/alex-bogatiuk/integris/internal/db"
+	"github.com/alex-bogatiuk/integris/internal/models"
 	"golang.org/x/crypto/bcrypt"
 	"net/http"
 	"time"

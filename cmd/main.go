@@ -1,9 +1,8 @@
 package main
 
 import (
-	"github.com/alex-bogatiuk/integris/config"
-	"github.com/alex-bogatiuk/integris/database"
-	"github.com/alex-bogatiuk/integris/handlers"
+	"github.com/alex-bogatiuk/integris/internal/config"
+	"github.com/alex-bogatiuk/integris/internal/handlers"
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
