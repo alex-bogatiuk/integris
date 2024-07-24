@@ -1,4 +1,4 @@
-package database
+package db
 
 import (
 	"fmt"
@@ -27,6 +27,6 @@ func InitDB() {
 	}
 
 	if err != nil {
-		log.Fatalf("Failed to connect to database: %v", err)
+		log.Fatalf("Failed to connect to db: %v", err)
 	}
 }

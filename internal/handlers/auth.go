@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"encoding/json"
-	"github.com/yourusername/ecms-erp/db"
-	"github.com/yourusername/ecms-erp/models"
+	"github.com/alex-bogatiuk/integris/db"
+	"github.com/alex-bogatiuk/integris/models"
 	"golang.org/x/crypto/bcrypt"
 	"net/http"
 	"time"

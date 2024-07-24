@@ -2,7 +2,7 @@
 server:
   port: "8000"
 
-#database conn settings
+#db conn settings
 database:
   type: "mysql" # or "postgres"
   host: "localhost"
